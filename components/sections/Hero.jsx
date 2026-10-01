@@ -67,7 +67,7 @@ export default function Hero() {
         <div className="flex w-max animate-marquee gap-12 font-display text-4xl font-semibold text-fg/80 sm:text-5xl">
           {Array.from({ length: 8 }, (_, i) => (
             <span key={i} className="whitespace-nowrap">
-              LET’S DO IT <em className="text-accent">with Tulas</em> ✦
+              LET’S DO IT <em className="text-accent">with Tulas</em> 
               <span className="mx-6 inline-block h-3 w-3 rotate-45 bg-accent" />
             </span>
           ))}
