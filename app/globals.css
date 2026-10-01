@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: 250 247 240;
+  --fg: 11 29 58;
+  --card: 255 255 255;
+  --muted: 88 99 120;
+  --line: 11 29 58;
+  --brand: 11 29 58;
+  --accent: 245 184 0;
+}
+
+.dark {
+  --bg: 8 15 31;
+  --fg: 244 241 232;
+  --card: 16 28 52;
+  --muted: 164 176 198;
+  --line: 244 241 232;
+  --brand: 245 184 0;
+  --accent: 245 184 0;
+}
+
+html { scroll-behavior: smooth; }
+body { @apply bg-bg font-sans text-fg antialiased transition-colors duration-300; }
+:focus-visible { outline: 2px solid rgb(var(--accent)); outline-offset: 3px; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .animate-marquee { animation: none; }
+}
