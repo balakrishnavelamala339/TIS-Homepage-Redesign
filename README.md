@@ -40,4 +40,4 @@ Open http://localhost:3000. Production check: `npm run build && npm start`.
 - `data/content.js` - all copy and lists, kept out of JSX
 
 ## 🎨 Brand Identity Retained
-School name, logo, copy, rankings, sports list, personalities and parent reviews from tis.edu.in; navy and yellow palette.
+School name, logo, copy, rankings, sports list, personalities and parent reviews from tis.edu.in; maroon and yellow palette.
