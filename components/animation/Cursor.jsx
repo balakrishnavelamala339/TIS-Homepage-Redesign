@@ -39,14 +39,14 @@ export default function Cursor() {
       <motion.div
         aria-hidden="true"
         style={{ x: sx, y: sy }}
-        animate={{ scale: active ? 1.9 : 1, opacity: active ? 0.9 : 0.6 }}
+        animate={{ scale: active ? 1.9 : 1, opacity: active ? 1 : 0.8 }}
         transition={{ duration: 0.2 }}
-        className="pointer-events-none fixed left-0 top-0 z-[70] -ml-5 -mt-5 h-10 w-10 rounded-full border-2 border-accent"
+        className="pointer-events-none fixed left-0 top-0 z-[70] -ml-5 -mt-5 h-10 w-10 rounded-full border-2 border-white mix-blend-difference"
       />
       <motion.div
         aria-hidden="true"
         style={{ x, y }}
-        className="pointer-events-none fixed left-0 top-0 z-[70] -ml-1 -mt-1 h-2 w-2 rounded-full bg-accent"
+        className="pointer-events-none fixed left-0 top-0 z-[70] -ml-1 -mt-1 h-2 w-2 rounded-full bg-white mix-blend-difference"
       />
     </>
   );
